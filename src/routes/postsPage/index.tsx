@@ -45,8 +45,8 @@ function PostsPage() {
               return (
                 <li key={post.id}>
                   <Link
-                    to="/postsPage/$id"
-                    params={{ id: String(post.id) }}
+                    to="/postsPage/$postId"
+                    params={{ postId: String(post.id) }}
                     activeProps={{ className: "bold" }}
                   >
                     {post.title}

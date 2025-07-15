@@ -7,8 +7,8 @@ import { PostsT } from "../../type";
  */
 export const Route = createFileRoute("/postsPage/$postId")({
   component: PostDetail,
-  loader: async ({ params }: { params: { id: string } }) => {
-    const id = Number(params.id);
+  loader: async ({ params }: { params: { postId: string } }) => {
+    const id = Number(params.postId);
 
     try {
       const response = await fetch(

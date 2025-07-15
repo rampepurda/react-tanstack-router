@@ -18,7 +18,7 @@ export const Route = createRootRoute({
           </li>
           <li>
             <Link to={"/postsData"} activeProps={{ className: "bold" }}>
-              Posts data
+              Posts data (nested Outlet)
             </Link>
           </li>
         </ul>
