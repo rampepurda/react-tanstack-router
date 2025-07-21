@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    /*
+    Paths: absolute paths does not work.
+    Below is guide on how to get it working:
+    https://medium.com/@umerfaheem67/configuring-typescript-path-alias-in-react-using-tsconfig-paths-webpack-plugin-dbb1b6644bdf
+    */
     "baseUrl": ".",
     "paths": {
       "@src/*": ["src/*"],
