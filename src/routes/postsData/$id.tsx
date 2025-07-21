@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { PostsT } from "../../type";
+import { PostsT} from "@src/type";
 
 /**
  * https://tanstack.com/router/latest/docs/framework/react/routing/routing-concepts#splat--catch-all-routes

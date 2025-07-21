@@ -1,5 +1,5 @@
 import { createFileRoute, Link, Outlet } from "@tanstack/react-router";
-import { PostsT } from "../type";
+import { PostsT } from "@src/type";
 
 /**
  * https://egghead.io/create-nested-route-and-nested-outlets-in-tanstack-router~hnmw4

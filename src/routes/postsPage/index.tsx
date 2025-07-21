@@ -1,5 +1,5 @@
 import { createFileRoute, Link, Outlet } from "@tanstack/react-router";
-import { PostsT } from "../../type";
+import { PostsT} from "@src/type";
 
 async function fetcher() {
   try {
